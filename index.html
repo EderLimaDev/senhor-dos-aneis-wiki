@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Página Principal</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="assets/images/logo.png" width="200" />
+        <img
+          src="assets/images/logo.png"
+          width="200"
+          alt="imagem anel dourado com escrita The Lord of Rings"
+        />
       </div>
-      <h1>My Wiki - O Senhor dos Anéis</h1>
+      <h1>Wiki - O Senhor dos Anéis</h1>
     </header>
 
     <div class="bar"></div>
@@ -21,14 +39,14 @@
       <nav class="sidebar">
         <h2>Série de Filmes</h2>
         <ul>
-          <li><a href="#">O Senhor dos Anéis</a></li>
+          <li><a href="index.html">O Senhor dos Anéis</a></li>
           <li>
-            <details>
+            <details aria-expanded="false">
               <summary>Filmes</summary>
               <ul>
-                <li><a href="#">Sociedade do Anel</a></li>
-                <li><a href="#">As Duas Torres</a></li>
-                <li><a href="#">O Retorno do Rei</a></li>
+                <li><a href="./src/pages/filme1.html">Sociedade do Anel</a></li>
+                <li><a href="./src/pages/filme2.html">As Duas Torres</a></li>
+                <li><a href="./src/pages/filme3.html">O Retorno do Rei</a></li>
               </ul>
             </details>
           </li>
@@ -41,10 +59,10 @@
           O Senhor dos Anéis (no original em inglês, The Lord of the Rings) é
           uma trilogia cinematográfica dirigida por Peter Jackson com base na
           obra-prima homónima de J. R. R. Tolkien. Os três filmes foram rodados
-          em simultâneo na Nova Zelândia,[1] faturaram cerca de 3 bilhões (US$
-          2.925.155.189) de dólares de receitas conjuntas de bilheteira[2] e
-          foram galardoados com 17 Oscars, entre os 30 para os quais foram
-          nomeados.[3] e é a franquia cinematográfica mais premiada da história
+          em simultâneo na Nova Zelândia, faturaram cerca de 3 bilhões (US$
+          2.925.155.189) de dólares de receitas conjuntas de bilheteira e foram
+          galardoados com 17 Oscars, entre os 30 para os quais foram nomeados. e
+          é a franquia cinematográfica mais premiada da história
         </p>
         <p>
           Localizada no mundo ficcional na Terra Média, os três filmes seguem o
@@ -77,7 +95,7 @@
           bilheterias cinematográficas de todos os tempos (posição até o
           primeiro semestre de 2010). Os filmes foram ainda aclamados pela
           crítica, tornando-se assim um enorme sucesso de crítica e público ao
-          mesmo tempo.[4][5][6]
+          mesmo tempo.
         </p>
 
         <picture>
@@ -94,8 +112,6 @@
           <h3>O Senhor dos Anéis: A Sociedade do Anel / A Irmandade do Anel</h3>
           <em>The Lord of the Rings: The Fellowship of the Ring (2001)</em>
 
-          <h4></h4>
-
           <p>
             Na Segunda Era da Terra-média, o Senhor das Trevas Sauron forja o Um
             Anel na intenção de distribuir poderes e dominar, através do
@@ -108,7 +124,7 @@
             segredo por mais de cinco séculos.
           </p>
           <span>
-            <a href=""
+            <a href="./src/pages/filme1.html"
               >Clique e saiba mais sobre o primeiro filme da trilogia.</a
             >
           </span>
@@ -131,7 +147,7 @@
             Rohan e os remanescentes da Sociedade do Anel.
           </p>
           <span>
-            <a href=""
+            <a href="./src/pages/filme2.html"
               >Clique e saiba mais sobre o segundo filme da trilogia.</a
             >
           </span>
@@ -163,15 +179,14 @@
             Isildur - para que este possa reivindicar o trono de Gondor.
           </p>
           <span>
-            <a href=""
+            <a href="./src/pages/filme3.html"
               >Clique e saiba mais sobre o terceiro filme da trilogia.</a
             >
           </span>
-          
 
           <h2 id="trailer">Trailer da Trilogia</h2>
           <hr />
-          <h4>Assista ao trailer de toda a trilogia.</h4>
+          <h3>Assista ao trailer de toda a trilogia.</h3>
           <iframe
             width="560"
             height="315"
@@ -183,10 +198,10 @@
             allowfullscreen
           ></iframe>
         </section>
-        
+
         <section id="bilheterias">
           <h2>Performance em bilheterias</h2>
-        
+
           <table>
             <thead>
               <tr>
@@ -242,7 +257,7 @@
         </section>
         <section id="premios">
           <h2>Prêmios</h2>
-          <hr>
+          <hr />
           <p>
             Os três filmes juntos foram indicados a 30 Prêmios da Academia, dos
             quais venceram 17, um recorde para qualquer trilogia cinematográfica
@@ -255,23 +270,30 @@
             encerra a trilogia, venceu cada categoria a qual havia sido
             indicado, estabelecendo um novo recorde para qualquer outro filme.
             Além disso, os 11 prêmios conquistas pelo último filme igualam-se
-            aos recordes de Ben-Hur e Titanic.[43][44][45][46] O filme também
-            tornou-se a segunda sequência na história do cinema a vencer o
-            prêmio de Melhor Filme (a primeira havia sido The Godfather Part II
-            em 1975) e o único filme de fantasia a receber tal prêmio até 2017,
-            sendo "A Forma da Água" o segundo filme de fantasia a ganhar tal
-            prêmio. Por outro lado, nenhum ator dos três filmes foi indicado a
-            um Prêmio da Academia, e Ian McKellen foi o único ator a receber uma
-            indicação, por sua atuação em The Fellowship of the Ring.
+            aos recordes de Ben-Hur e Titanic. O filme também tornou-se a
+            segunda sequência na história do cinema a vencer o prêmio de Melhor
+            Filme (a primeira havia sido The Godfather Part II em 1975) e o
+            único filme de fantasia a receber tal prêmio até 2017, sendo "A
+            Forma da Água" o segundo filme de fantasia a ganhar tal prêmio. Por
+            outro lado, nenhum ator dos três filmes foi indicado a um Prêmio da
+            Academia, e Ian McKellen foi o único ator a receber uma indicação,
+            por sua atuação em The Fellowship of the Ring.
           </p>
-          <blockquote cite="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is_(s%C3%A9rie_de_filmes)">
-            <q>Só quero agradecer a duas pessoas especiais porque, quando eu tinha
-            oito anos de idade, fiz alguns filmes com uma câmera Super-8. E eles
-            me apoiaram em todos esses anos. E morreram nos últimos anos; não
-            viram estes filmes. Para Bill e Joan, muito obrigado.</q>
-            
+          <blockquote
+            cite="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is_(s%C3%A9rie_de_filmes)"
+          >
+            <q
+              >Só quero agradecer a duas pessoas especiais porque, quando eu
+              tinha oito anos de idade, fiz alguns filmes com uma câmera
+              Super-8. E eles me apoiaram em todos esses anos. E morreram nos
+              últimos anos; não viram estes filmes. Para Bill e Joan, muito
+              obrigado.</q
+            >
           </blockquote>
-          <p style="text-align: right; font-size: small;">— Peter Jackson ao receber o prêmio de Melhor Diretor nos 76º Prêmios da Academia.</p>
+          <p style="text-align: right; font-size: small">
+            — Peter Jackson ao receber o prêmio de Melhor Diretor nos 76º
+            Prêmios da Academia.
+          </p>
         </section>
       </section>
 
@@ -287,8 +309,14 @@
     </main>
 
     <footer class="footer">
-        <p>Criado por Eder Lima</p>
-        <a href="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is_(s%C3%A9rie_de_filmes)">Font: wikipedia</a>
+      <p>@2024 Eder Lima - Todos os direitos reservados</p>
+      <p>
+        <a
+          title="link para o site wikipedia sobre Senhor dos Aneis"
+          href="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is_(s%C3%A9rie_de_filmes)"
+          >Fonte: wikipedia</a
+        >
+      </p>
     </footer>
   </body>
 </html>
